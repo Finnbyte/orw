@@ -7,32 +7,12 @@ ORW - Openbox Ricing Wrapper is collection of bash scripts and config files, con
 <br>
 
 
-# IMPORTANT NOTES!!!
+# NOTES
 
 <br>
 
-### Since this is first official release, I strongly advise trying it on some sort of safe (live/virtual) environment first.
-### Few important tips to keep in mind:  
-* Setup script is currently supported only on Debian and Arch based distros.  
-By "supported" I mean it's written to handle dependencies only using Debian and Arch package managers, apt and pacman.  
-* In case of multi monitor setup, make sure all monitors are connected in exact order xrandr lists them.  
-* In order for everything to work as expected, ORW uses its own configs, which will overwrite existing ones during installation. ORW provides some basic sort of backup, but if you have some really crutial configs you don't want to lose, please back them up manually.  
-
-
-<br>
-
-## Known issues
-
-<br>
-
-
-* Bar respawning mechanism can fail sometimes, in case it happes, just kill all running instances, and start them again:  
-```
-barctl.sh -k
-barctl.sh -b bar1,bar2,...
-```
-
-* Bar calculate font size according to it's height. If default size is changed, font size will change accordingly. In case font size is changed, if you use icons and adjustible width, you'll most likely have to adjust font icons sizes manually **(~/.orw/scripts/bar/generate_bar.sh, lines 401 - 411.)**, until all is aligned as it's supposed to.  
+### 
+### Just read 
 
 
 <br>
@@ -49,8 +29,8 @@ Go to orw directory and run setup.sh.
 
 <br>
 
-## Useful manuals
-
+## Manuals
+# Found in .man
 <br>
 
 
