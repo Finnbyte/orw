@@ -12,7 +12,7 @@ ORW - Openbox Ricing Wrapper is collection of bash scripts and config files, con
 <br>
 
 ### 
-### Just read 
+### Just read https://github.com/s0la/orw for information
 
 
 <br>
@@ -30,7 +30,7 @@ Go to orw directory and run setup.sh.
 <br>
 
 ## Manuals
-# Found in .man
+Found in .man
 <br>
 
 
